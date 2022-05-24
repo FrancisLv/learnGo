@@ -2,7 +2,7 @@ package dao
 
 import (
 	"database/sql"
-	"errors"
+	"github.com/pkg/errors"
 )
 
 func QueryNameById(db *sql.DB, id string) (string, error) {

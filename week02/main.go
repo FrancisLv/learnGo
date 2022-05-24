@@ -3,6 +3,7 @@ package week02
 import (
 	"database/sql"
 	"fmt"
+	"github.com/pkg/errors"
 	"log"
 	"week02/dao"
 )
